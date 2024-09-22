@@ -1,0 +1,115 @@
+/* Font --->
+
+font; Source Sans Pro', sans-serif;
+
+
+Font Awesome Icons --->
+
+
+fas fa-heart fa-3x - heart 
+fas fa-users fa-2x  - about us 
+fas fa-map-pin fa-3x  - map pin
+fab fa-facebook -facebook logo
+fab fa-twitter - twitter logo
+fab fa-Instagram - Instagram logo  */
+
+
+body{
+    margin: 3.7rem 12.5rem;
+    font-family:'Source Sans Pro', sans-serif ;
+}
+i,h2{
+    color: #fff;
+    font-size: 1.7rem;
+}
+p{
+    font-size: 1rem;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #38CCCC;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+img{
+    border-radius: 10px;
+    width:220px;
+    height: 225px;
+}
+
+/* HEADER CSS */
+
+.comman{
+    background-color: #F96699;
+    height: 80vh;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+i{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* MAIN CSS */
+/* ABOUT CSS */
+.about-us{
+    background-color: #38CCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+}
+.about-icon{
+    text-align: center;
+    padding-right: 4rem;
+    width: 50%;
+}
+.about-content{
+    width: 50%;
+}
+.about-content p{
+    line-height: 2.5rem;
+}
+.about-content .para-1{
+    padding-bottom:4rem;
+}
+/* IMAGE DIV CSS */
+.all-img-conatiner{
+    background-color: #fff;
+    width: 100%;
+}
+.all-img-conatiner nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.pink{
+    color: #F96699;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:625px) {
+    body{
+        margin: 3rem 1rem;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+}
